@@ -1,0 +1,66 @@
+.FillGaps-Container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    background-color:  #f0f0f0;
+}
+
+.FillGaps-Container-Image{
+    width: min(50%, 500px);
+    height: min(60%, 500px);
+}
+
+.FillGaps-Container-Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 1px solid #0000001a;
+    border-radius: 5px;
+    background-color: #07814c;
+    box-shadow: inset 0 0 10px #0000001a;
+}
+
+.FillGaps-Container-Text p{
+    text-align: center;
+    margin: 0.25rem;
+    color: white;
+}
+
+.FillGaps-Container-Footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.FillGaps-Container-Footer p{
+    text-align: center;
+    color: black;
+}
+
+.FillGaps-Container-Text input{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.FillGaps-Container-Text input:focus{
+    outline: none;
+}

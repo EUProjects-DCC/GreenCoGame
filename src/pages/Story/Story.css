@@ -1,0 +1,38 @@
+
+.StoryContainer {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+}
+
+.card-content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+}
+
+.right{
+  position: absolute;
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+ion-content {
+  --background: none;
+}

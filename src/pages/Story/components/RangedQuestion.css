@@ -1,0 +1,31 @@
+.ranged-question-container {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.ranged-question-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    background-color: #07814c;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.ranged-question-radio-item {
+    display: inline-block;
+    --background: none;
+    text-align: center;
+}
+
+.ranged-question-radio-options {
+    background-color: #e5e5e5;
+    border-radius: 3px;
+}
+
+.ranged-question-radio-item-label {
+    color:#8EC044
+}

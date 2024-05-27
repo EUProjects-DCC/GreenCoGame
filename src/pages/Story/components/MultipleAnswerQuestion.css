@@ -1,0 +1,48 @@
+.MultipleChoice-Container {
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.MultipleChoice-Container-Question {
+  background-color: #07814c;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.MultipleChoice-Container-Options {
+  background-color: #e5e5e5;
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
+  border-radius: 3px;
+  width: 100%;
+  padding: 4px;
+}
+
+.MultipleChoice-Container-Options-Item {
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1rem;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+ion-checkbox {
+  --size: 25px;
+  --checkbox-background-checked: #07814c;
+}
+
+ion-checkbox::part(container) {
+  border-radius: 6px;
+  border: 2px solid #07814c;
+}

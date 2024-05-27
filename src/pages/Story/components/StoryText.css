@@ -1,0 +1,54 @@
+.textHeaderStory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 8 auto;
+    width: 100%;
+}
+.textHeaderStory p {
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #333;
+    width: 100%;
+    border-radius: 5px;
+}
+.hidden {
+    display: none;
+}
+
+#prevTextButton,
+#nextTextButton {
+    cursor: pointer;
+    transform: scaleX(1);
+    width: 25px;
+    height: auto;
+}
+
+#prevTextButton {
+    transform: scaleX(-1);
+}
+
+#prevTextButton:hover, #nextTextButton:hover {
+    opacity: 0.5;
+}
+
+#characterName {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #b9e5bb;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 0.5rem;
+}

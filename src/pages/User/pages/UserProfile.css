@@ -1,0 +1,101 @@
+#ProfileHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfilePicture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.overlap{
+    position: absolute;
+    background-color: aquamarine;
+    opacity: 0%;
+    transition: opacity 0.5s;
+}
+
+.overlap:hover{
+    opacity: 70%;
+}
+
+.StatisticField{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+}
+
+.StatisticName{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: right;
+    text-align: start;
+    width: 100%;
+}
+
+.StatisticField p{
+    font-size: 1rem;
+    width: 250px;
+    color: black;
+    text-align: center;
+}
+
+.BadgesContainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: normal;
+    width: 100%;
+    max-width: 100%;
+    overflow:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.BadgesContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.Badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    min-width: 75px;
+    height: max-content;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.Badge p{
+    font-size: 0.75rem;
+    color: black;
+    text-align: center;
+    max-width: 100%;
+}
+
+.Badge img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.BackButton{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+}
+
+.BackButton:hover{
+    opacity: 0.5;
+}

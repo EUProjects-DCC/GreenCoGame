@@ -1,0 +1,300 @@
+:root {
+    --ion-color-greenlight: #8EC044;
+    --ion-color-greenlight-rgb: 255, 215, 0;
+    --ion-color-greenlight-contrast: #000000;
+    --ion-color-greenlight-contrast-rgb: 0, 0, 0;
+    --ion-color-greenlight-shade: #8EC044;
+    --ion-color-greenlight-tint: #8EC044;
+
+    --ion-color-greendark: #07814c;
+    --ion-color-greendark-rgb: 255, 215, 0;
+    --ion-color-greendark-contrast: #000000;
+    --ion-color-greendark-contrast-rgb: 0, 0, 0;
+    --ion-color-greendark-shade: #07814c;
+    --ion-color-greendark-tint: #07814c;
+
+    --ion-color-greyproject: #282929;
+    --ion-color-greyproject-rgb: 255, 215, 0;
+    --ion-color-greyproject-contrast: #000000;
+    --ion-color-greyproject-contrast-rgb: 0, 0, 0;
+    --ion-color-greyproject-shade: #282929;
+    --ion-color-greyproject-tint: #282929;
+}
+html[lang='1']{    
+    --ion-font-family: 'sans-serif';
+    --ion-default-font: 'sans-serif';
+}
+html[lang='2']{    
+    --ion-font-family: 'Poppins-Medium', 'sans-serif';
+    --ion-default-family: 'Poppins-Medium', 'sans-serif';
+}
+html[lang='3']{    
+    --ion-font-family: 'Poppins-Medium', 'sans-serif';
+    --ion-default-family: 'Poppins-Medium', 'sans-serif';
+}
+html[lang='4']{    
+    --ion-font-family: 'Poppins-Medium', 'sans-serif';
+    --ion-default-family: 'Poppins-Medium', 'sans-serif';
+}
+html[lang='5']{    
+    --ion-font-family: 'Poppins-Medium', 'sans-serif';
+    --ion-default-family: 'Poppins-Medium', 'sans-serif';
+}
+
+.ion-color-greenlight {
+    --ion-color-base: var(--ion-color-greenlight) !important;
+    --ion-color-base-rgb: var(--ion-color-greenlight-rgb) !important;
+    --ion-color-contrast: var(--ion-color-greenlight-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-greenlight-gold-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-greenlight-shade) !important;
+    --ion-color-tint: var(--ion-color-greenlight-tint) !important;
+}
+
+.ion-color-greendark {
+    --ion-color-base: var(--ion-color-greendark) !important;
+    --ion-color-base-rgb: var(--ion-color-greendark-rgb) !important;
+    --ion-color-contrast: var(--ion-color-greendark-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-greendark-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-greendark-shade) !important;
+    --ion-color-tint: var(--ion-color-greendark-tint) !important;
+}
+
+.ion-color-greyproject {
+    --ion-color-base: var(--ion-color-greyproject) !important;
+    --ion-color-base-rgb: var(--ion-color-greyproject-rgb) !important;
+    --ion-color-contrast: var(--ion-color-greyproject-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-greyproject-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-greyproject-shade) !important;
+    --ion-color-tint: var(--ion-color-greyproject-tint) !important;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/Poppins-Medium.ttf');
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("/public/assets/background.png");
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#welcomeGreenCo {
+    width: auto;
+    height: 15vh;
+}
+
+#welcomeEU {
+    width: auto;
+    height: 15vh;
+}
+
+
+#ptitle {
+    color: #000000;
+    font-size: x-large;
+    width: 250px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma ;
+}
+
+
+#prights {
+    color: #000000;
+    font-size: small;
+    font-style: italic;
+}
+
+.FormTemplate {
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.centerY {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bottomY {
+    position: absolute;
+    bottom: 0;
+}
+
+.scale-hover {
+    transition: transform 0.3s ease;
+}
+
+.scale-hover:hover {
+    transform: scale(1.1);
+}
+
+.question-Container {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.question-Container-Question {
+    background-color: #07814c;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.rankButton {
+    background-color: #07814c;
+}
+
+.learningPillImage {
+    max-width: 100px;
+}
+
+ion-radio {
+    --color: #07814c;
+    --color-checked: #07814c;
+    width: 20px;
+    height: 20px;
+}
+
+.ion-radio {
+    --color: #07814c;
+    --color-checked: #07814c;
+    width: 20px;
+    height: 20px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.radiobutton {
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1024px) {
+    body {
+        font-size: 19px;
+    }
+}
+
+@media (min-width:1280px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.planetButtons {
+    background-color: #07814c;
+    width: 50%;
+}
+
+.buttonStory{
+    background: none;
+    border:none;
+}
+
+.optiontext{
+    background-color: #8EC044;
+}
+
+.titlePlanetRoom{
+    color: #07814c;
+}
+.titleRoom{
+    background: rgba(255,255,255,0.5);
+}
+
+ion-radio {
+    --color: #07814c;
+    --color-checked: #07814c;
+}
+
+ion-radio.ios::part(container) {
+    width: 20px;
+    height: 20px;
+
+    border: 2px solid #07814c;
+    border-radius: 4px;
+}
+
+.radio-checked.ios::part(container) {
+    border-color: #07814c;
+}
+
+.labelgreenco {
+    font-size: 1.3rem;
+}
+
+.Question-Info{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.Info-Image{
+    width: 20px;
+    height: auto;
+}
+
+a {
+    color: #07814c;
+}
+a:hover {
+    color: #07814c
+}
+
+.optionButton
+{
+    padding:0;
+    border: none;
+    background: none;
+}

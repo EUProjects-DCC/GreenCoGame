@@ -1,0 +1,53 @@
+.SortQuestion-Container {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .SortQuestion-Container-Character {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #7ab8f5;
+  }
+  
+  .SortQuestion-Container-Image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .SortQuestion-Container-Text {
+    color: #333;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .SortQuestion-Container-Text-Description {
+    margin-bottom: 1rem;
+  }
+  
+  .SortQuestion-Container-Text-Question {
+    font-weight: bold;
+  }
+  
+  .SortQuestion-Container-Selector {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.selectOption{
+  width: 80%;
+}

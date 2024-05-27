@@ -1,0 +1,31 @@
+#footerGrid{
+    background: #f2f2f2;
+    width: 100%;
+    height: max-content;
+    max-height: 20%;
+    text-align: center;
+    overflow: auto;
+    overflow: overlay;
+    margin: auto;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+#footerGrid img{
+    width: 70vh;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: -0.2rem;
+}
+
+#footerGrid p{
+    font-size: 0.9rem;
+    text-align: justify;
+    color: rgb(10, 10, 10);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -1,0 +1,62 @@
+.LearningPill-Toast {
+  position: fixed;
+  width: 99%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  animation: slide-up-fade-in-slide-down forwards;
+  z-index: 1000;
+  margin:8
+}
+
+.LearningPill-Container {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.LearningPill-Container-Title {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: start;
+}
+
+.hidden {
+  display: none;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  margin-right: 0.5rem;
+}
+
+@keyframes slide-up-fade-in-slide-down {
+  0% {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  2% {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.LearningPill{
+  padding-top: 15px;
+}
