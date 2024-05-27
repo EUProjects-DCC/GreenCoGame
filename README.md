@@ -1,6 +1,26 @@
 # GreenCo Project
 ![GreenCo project logo](./public/assets/icon/logo1.png)    ![European Union logo](./public/assets/icon/logoEU.png)
 
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+In a few years, the Environment would be more polluted by the Information Technology Industry than by cars or by motorcycles, contributing significantly to greenhouse gas emissions.
+
+The GreenCo project is an innovative technological and environmental initiative from a consortium of European partners trying to fight against this situation.
+
+It is co-funded by the Erasmus+ European Union Programme
+under the reference Nº 2021-1-ES01-KA220-VET-000025159
+
+Website of the project: https://greenco-project.eu/
+
 ## Installation
 
 ### Node.js
